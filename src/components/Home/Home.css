@@ -1,0 +1,266 @@
+.addContainer {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.formCotainer {
+  margin-left: 15%;
+}
+.labelTitle {
+  margin-bottom: 13px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+.addTitleInput {
+  width: 600px !important;
+  height: 45px;
+  border-radius: 30px;
+  border-color: gray !important;
+}
+input {
+  font-weight: 400;
+  font-size: 17px;
+  padding-left: 10px;
+}
+input::placeholder {
+  padding-left: 15px;
+  font-size: 12px;
+}
+
+.addDescriptionInput {
+  width: 600px !important;
+  height: 200px;
+  border-radius: 30px;
+}
+.addDescriptionInput::placeholder {
+  padding-left: 10px;
+}
+#addButton {
+  background-color: rgb(5, 226, 226);
+  color: white;
+  height: 65px;
+  width: 120px;
+  margin: 17px;
+  border-radius: 20px;
+  border: none;
+}
+#cancelButton {
+  background-color: white !important;
+  color: black;
+  height: 65px;
+  width: 120px;
+  border-color: rgb(5, 226, 226) !important;
+  margin: 17px;
+  border-radius: 20px;
+}
+.spanEl {
+  color: red;
+}
+.addWelcomeHeading h3 h5 {
+  font-size: 10px;
+}
+
+.welcomeHeading2 {
+  text-align: end;
+}
+.navBar {
+  display: flex;
+  padding: 10px;
+}
+
+.navBar h4 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.navBar input[type="search"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.searchInput {
+  margin-left: 15%;
+  width: 430px;
+  height: 45px;
+  border-radius: 20px !important;
+}
+.headerAddButton {
+  margin-left: 24%;
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(5, 226, 226);
+  color: white;
+}
+.welcomeHeading {
+  color: gray;
+  margin-left: 30px;
+  font-size: 20px;
+  
+}
+.nameHeading {
+  color: rgb(5, 226, 226);
+}
+
+.allNotesHeading {
+  
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.cardItems  {
+  background-color: rgb(241, 238, 238);
+  width: 85%;
+  height: 150px;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 20px;
+  
+}
+.cardItems:hover{
+  background-color: rgb(5, 226, 226);
+  color: white !important;
+}
+.starredCard{
+  background-color: rgb(5, 226, 226);
+  width: 85%;
+  height: 150px;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.deleteCard{
+  background-color: rgb(5, 226, 226);
+  width: 85%;
+  height: 150px;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 20px;
+}
+.selectedd{
+  background-color: rgb(5, 226, 226);
+}
+.cardItems button {
+  float: left;
+}
+.cardItems h6 {
+  color: white;
+  font-weight: bold;
+}
+.cardItems p {
+  color: white;
+  font-weight: 350;
+  font-size: 12px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.deleteAndStarBtn {
+  margin: 5px;
+  border-radius: 6px;
+  background-color: none;
+  border: none;
+}
+.vertical-tabs {
+  display: flex;
+}
+
+.tab-nav {
+  flex: 1;
+}
+
+.tab-content {
+  flex: 3;
+  padding: 10px;
+  margin-left: 80px;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 800px 700px;
+}
+ul {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tab-item {
+  color: rgb(5, 226, 226);
+}
+.allCounterValue {
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+  background-color: rgb(5, 226, 226);
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 1px;
+  margin-left: 5px;
+  border-radius: 60px;
+}
+.tab-item.active {
+  color: black;
+  border-left: 7px solid rgb(5, 226, 226);
+}
+
+.tab-item.inactive {
+  color: gray;
+}
+.thirdContainer {
+  margin-top: 30px;
+}
+
+.dateHeading {
+  color: aqua;
+}
+.thirdContainerFlex {
+  display: flex;
+  flex-direction: row;
+}
+.editStarBtn {
+  margin-left: 33%;
+}
+.editStarBtn button {
+  margin: 5px;
+  border-radius: 5px;
+}
+.titleAndDateHeading p {
+  line-height: 0.1;
+  
+}
+.titleAndDateHeading {
+  font-size: 21px;
+  font-weight: 600;
+}
+.titleHeadingDate {
+  font-weight: 500;
+}
+.dateHeading {
+  font-size: 11px;
+}
+.thirdContainerDiscription {
+  font-weight: 600;
+  color: grey;
+  font-size: 13px;
+  margin-top: 20px;
+}
+.deleteContainerDeleteButton{
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 5px;
+  width: 70px;
+  margin-left: 10px;
+}
+.deleteContainerTitleDeleteButton{
+  display: flex;
+}
